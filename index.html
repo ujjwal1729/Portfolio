@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Jain</title>
+    <style>
+        * {
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        #head {
+            background-color: rgb(6, 6, 6);
+            width: 1275px;
+            position: fixed;
+            height: 25 px;
+
+
+        }
+
+        #head a {
+            margin-left: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            /* font-style: italic;  */
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            margin-bottom: 50px;
+            font-style: italic;
+            vertical-align: middle;
+        }
+
+        .button {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            background-color: #000;
+            cursor: pointer;
+        }
+
+        .active,
+        .button:hover {
+            background-color: rgb(30, 21, 151);
+            color: red;
+        }
+
+        #ul {
+            float: right;
+            padding-right: 30px;
+
+        }
+
+        .about {
+            padding-left: 20px;
+            margin: auto;
+            text-align: center;
+        }
+
+
+        #img {
+            float: left;
+            margin-top: 30px;
+            padding-top: 40px;
+            padding-left: 100px;
+
+        }
+
+        .firsthead {
+            font-size: 40px;
+            font-weight: 700;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+
+        .secondhead {
+            font-size: 25px;
+        }
+
+        #hi {
+            padding-top: 75px;
+        }
+
+        #home {
+            /* border: 4px solid red; */
+            height: 550px;
+        }
+
+        #hometown {
+            float: left;
+        }
+
+        .fa-github {
+            background: #000;
+            color: white;
+            height: 25px;
+            width: 25px;
+            padding-top: 5px;
+            padding-left: 2.5px;
+            padding-right: 2.5px;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            height: 25px;
+            width: 25px;
+            padding-top: 5px;
+            padding-left: 2.5px;
+            padding-right: 2.5px;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+            height: 25px;
+            width: 25px;
+            padding-top: 5px;
+            padding-left: 2.5px;
+            padding-right: 2.5px;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+            height: 25px;
+            width: 25px;
+            padding-top: 5px;
+            padding-left: 2.5px;
+            padding-right: 2.5px;
+            border-radius: 50%;
+            margin: 5px;
+        }
+
+        #about {
+            /* border: 4px solid red;  */
+            height: 530px;
+            padding-top: 50px;
+
+        }
+
+        #abthead1 {
+            float: left;
+        }
+
+        #abthead2 {
+            float: left;
+        }
+
+        #education {
+            /* border: 4px solid red; */
+            height: 500px;
+            padding-top: 50px;
+        }
+
+        #table {
+            text-align: center;
+            margin: auto;
+            margin-top: 60px;
+            border-spacing: 20px;
+        }
+
+        #iitj {
+            float: right;
+            padding-right: 70px;
+            padding-top: 40px;
+        }
+
+        #projects {
+            /* border: 4px solid red;  */
+            height: 580px;
+
+        }
+
+        .projects {
+            text-align: center;
+
+        }
+
+        #ruko {
+            float: right;
+            padding-right: 70px;
+            padding-top: 100px;
+        }
+
+        #p {
+            padding-top: 200px;
+        }
+
+        #contacts {
+            /* border: 4px solid red; */
+            height: 520px;
+            overflow: auto;
+        }
+
+        #phone {
+            float: left;
+        }
+
+        #mail {
+            line-height: 8px;
+            float: right;
+            padding-right: 100px;
+        }
+
+        .thirdhead {
+            font-size: 18px;
+        }
+
+        #sm {
+            padding-left: 300px;
+        }
+
+        /* #info {
+            /* text-align: center; */
+        /* margin-left: 500px; */
+        /* border: 2px solid red; */
+
+        #int {
+            float: right;
+            padding-right: 370px;
+            line-height: 15px;
+        }
+
+        #achieve {
+            float: right;
+            padding-right: 460px;
+            line-height: 15px;
+        }
+
+        #abtt {
+            /* border: 4px solid red; */
+            margin-left: 500px;
+        }
+
+        #edu {
+            padding-top: 80px;
+        }
+
+        #about2 {
+            padding-top: 30px;
+        }
+
+        #h {
+            padding-top: 80px;
+        }
+
+        #contactme {
+            padding-top: 80px;
+        }
+
+        #conimg {
+            float: left;
+            padding-top: 50px;
+        }
+
+        #c {
+            padding-top: 10px;
+        }
+
+        #conicon {
+            padding-top: 80px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body background="bg3.jpg">
+    <header id="head">
+        <nav>
+            <ul id="ul">
+                <a href="#home" class="button">Home</a>
+                <a href="#education" class="button">Education</a>
+                <a href="#about" class="button">About</a>
+                <a href="#projects" class="button">Projects</a>
+                <a href="#contacts" class="button">Contact </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="about" id="home">
+        <img src="ujj.jpg" alt="error" height="400px" width="350px" id="img">
+        <div id="h">
+            <p class="firsthead" id="hi">
+                Hi There,<br>
+                I am Ujjwal Jain
+            </p>
+            <p class="secondhead">
+                I am a coding enthusiast studying at IIT Jodhpur
+            </p>
+            <div id="icons">
+                <a href="https://github.com/ujjwal1729" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/ujjwal-jain-856940254/" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com/profile.php?id=100085420219295" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/ujjwaljain_1729/" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="education">
+        <img src="kt.jpg" alt="error" height="400px" width="350px" id="iitj">
+        <div id="edu">
+            <p class="firsthead">
+                Education
+                <!-- <ul class="secondhead" style="list-style-type: none;">
+                <li>
+                    <u>Higher Education</u>
+                    <p>Bhavan Vidyalaya
+                    <ul style="list-style-type: none;">
+                        <li>10th : 2020</li>
+                        <li>12th : 2022</li>
+                    </ul>
+                    </p>
+                </li>
+                <li>
+                    <u>College</u>
+                    <p>B.tech in Computer Science : 2026* </p>
+                </li>
+            </ul> -->
+            <table class="secondhead" id="table">
+                <thead>
+                    <tr>
+                        <th>Year
+                        </th>
+                        <th>Degree/Board</th>
+                        <th>University/Institution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026*
+                        </td>
+                        <td>B.Tech in Computer Science</td>
+                        <td>IIT Jodhpur</td>
+                    </tr>
+                    <tr>
+                        <td>2022
+                        </td>
+                        <td>Class XII,CBSE</td>
+                        <td>Bhavan Vidyalaya,Panchkula</td>
+                    <tr>
+                        <td>2020 </td>
+                        <td>Class X,CBSE</td>
+                        <td>Bhavan Vidyalaya,Panchkula</td>
+                    </tr>
+                    </tr>
+                </tbody>
+            </table>
+            </p>
+        </div>
+    </div>
+    <div id="about">
+        <img src="rm2.jpg" alt="error" height="400px" width="350px" id="img">
+        <div id="about2">
+            <p class="firsthead">
+                About Me
+            </p>
+            <div id="abtt">
+                <div id="hometown"></div>
+                <p class="secondhead" id="info">Born in Ghaziabad and did my schooling from Chandigarh Tricity</p>
+                <div>
+                    <p class="secondhead" id="abthead1">
+                        <b>My Achievements</b>
+                    <div>
+                        <ul id="achieve">
+                            <li>
+                                <p class="secondhead">
+                                    INMO Merit Awardee
+                                </p>
+                            </li>
+                            <li>
+                                <p class="secondhead">
+                                    KVPY Scholar(AIR 499)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    </p>
+                    <p class="secondhead" id="abthead2">
+                        <b>My Interests</b>
+                    <div>
+                        <ul id="int">
+
+                            <li>
+                                <p class="secondhead">
+                                    Watching Sports (Hala Madrid!!!)
+                                </p>
+                            </li>
+                            <li>
+                                <p class="secondhead">
+                                    Watching Movies (Marvel Fan)
+                                </p>
+                            </li>
+                            <li>
+                                <p class="secondhead">
+                                    Reading Fiction Novels
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <img src="meme.jpg" alt="error" id="ruko" height="400" width="350">
+        <div id="p">
+            <p class="firsthead">
+                Projects
+            </p>
+            <p class="secondhead">
+                To be added soon :)
+            </p>
+        </div>
+    </div>
+    <div class="about" id="contacts">
+        <img src="contact.jpg" alt="error" id="conimg" height="400" width="350">
+        <p class="firsthead" id="contactme">
+            Contact me
+        </p>
+        <div class="secondhead" id="c">
+            <p>
+                <a class="fa fa-envelope"></a> b22cs057@iitj.ac.in
+            </p>
+            <p>
+                <a class="fa fa-phone"></a> 8968768796
+            </p>
+            <p>
+                <a class="fa fa-map-marker"></a> W-139, Y-4, IIT Jodhpur
+            </p>
+            <p id="conicon">
+                <a href="https://github.com/ujjwal1729" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/ujjwal-jain-856940254/" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com/profile.php?id=100085420219295" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/ujjwaljain_1729/" class="fa fa-instagram"></a>
+            </p>
+        </div>
+    </div>
+    <div class="thirdhead" id="phone">
+    </div>
+    </div>
+</body>
+
+</html>
